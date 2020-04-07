@@ -1,0 +1,626 @@
+@media screen and (min-width: 1201px) {
+    
+}
+
+/* 992 - 1200 */
+@media screen and (max-width: 1200px) {
+    .main__box{
+        margin-bottom: 30px;
+    }
+    .plan__wrapper{
+        margin: 0 auto;
+    }
+    .plan__wrapper:nth-child(1){
+        margin-top: 50px;
+    }
+    .apartment__warning{
+        margin-left: auto;
+        margin-top: 95px;
+    }
+    .convenience__top{
+        margin-top: 27px;
+    }
+    .convenience__link-all{
+        display: block;
+        margin-left: 0;
+    }
+    .convenience__link{
+        margin-right: 0;
+        margin-bottom: 18px;
+    }
+    .form__text{
+        margin-left: 146px;
+    }
+    .feedback__block{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .apartment__warning{
+        margin-top: 20px;
+    }
+    .area__inner-bottom{
+        margin-top: 46px;
+        margin-left: 20px;
+    }
+    .area__inner-block{
+        display: flex;
+    }
+}
+
+/* 768 - 992 */
+@media screen and (max-width: 992px) {
+    .main__box{
+        margin: 0 auto 30px;
+    }
+    .layout__box{
+        margin: 0 auto 30px;
+    }
+    .main__survey{
+        display: none;
+    }
+    .apartment__warning{
+        margin-left: auto;
+    }
+    .convenience__radio{
+        margin-right: 40px;
+    }
+    .form__block{
+        margin: 0 auto;
+        max-width: 510px;
+    }
+    .form__wraper{
+        max-width: 510px;
+        margin: 0 auto;
+    }
+    .form__order{
+        max-width: 231px;
+        width: 231px;
+    }
+    .form__order-bottom{
+        margin-bottom: 0;
+    }
+    .form__order-wrapper{
+        width: 229px;
+    }
+    .form{
+        padding-bottom: 115px;
+    }
+    .style__wrapper {
+        margin: 0 auto;
+        width: 375px;
+        justify-content: center;
+    }
+    .content_title{
+        text-align: center;
+        font-size: 16px;
+    }
+    .homestay__number{
+        margin: 0 auto;
+        width: 375px;
+    }
+    .homestay__age{
+        margin: 0 auto;
+        width: 375px;
+    }
+    .homestay__age-title{
+        margin-top: 33px;
+        text-align: center;
+    }
+    .feedback__block{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .convenience__block{
+        display: block;
+    }
+}
+
+/* 576 - 768 */
+@media screen and (max-width: 768px) {
+    .main__title{
+        text-align: center;
+    }
+    .footer__security{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .footer__development{
+        display: none;
+    }
+    .footer__support svg {
+        display: none;
+    }
+    .main__box{
+        max-width: 240px;
+    }
+    .style__content{
+        margin-left: 40px;
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .style__block{
+        margin-bottom: 25px;
+    }
+    .kitchen__checkbox{
+        margin-right: 54px;
+        margin-bottom: 0;
+        margin-left: 30px;
+    }
+    .kitchen__wrapper{
+        display: flex;
+    }
+    .kitchen__wrapper{
+        margin-top: 15px;
+    }
+    .feedback__block{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .apartment__warning{
+        margin: 0 auto;
+    }
+    .apartment__wrap{
+        max-width: 338px;
+        margin: 0 auto;
+    }
+    .apartment__link-all{
+        margin: 90px 0 52px;
+    }
+    .kitchen__checkbox{
+        margin-left: 0;
+    }
+    .area__kitchen-min{
+        margin-top: 25px;
+    }
+    .aria__link-all{
+        margin: 0;
+    }
+    .area__warning{
+        display: none;
+    }
+    .convenience__block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+}
+
+/* 320 - 576 */
+@media screen and (max-width: 576px) {
+    body{
+        position: relative;
+    }
+    .container{
+        width: 300px;
+    }
+    .header__ellipse{
+        width: 55px;
+        height: 55px;
+    }
+    .footer{
+        display: none;
+    }
+    .header__border{
+        display: none;
+    }
+    .border__bottom{
+        width: 100%;
+        bottom: 0;
+        height: 5px;
+        position: absolute;
+        display: block;
+    }
+    .main__box{
+        max-width: 150px;
+        width: 120px;
+    }
+    .apartment__warning{
+        display: block;
+    }
+    .header__title{
+        display: none;
+    }
+    .layout__content {
+        display: block;
+    }
+    .content_title{
+        font-size: 16px;
+        text-align: center;
+    }
+    .layout__text{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    .layout{
+        padding-bottom: 35px;
+    }
+    .header__logo-text{
+        display: none;
+    }
+    .style__box{
+        height: 127px;
+    }
+    .style__content{
+        margin-left: 0;
+        justify-content: center;
+    }
+    .style__wrapper{
+        width: auto;
+    }
+    .style__block{
+        margin-right: 0;
+    }
+    .style__box-text{
+        margin-top: 10px;
+    }
+    .content_link{
+        margin: 8px 5px 17px 0;
+        padding: 9px 12px;
+    }
+    .content_title{
+        margin-top: 6px;
+    }
+    .kitchen__bg-bright{
+        margin-right: 16px;
+    }
+    .style__box{
+        height: 180px;
+        width: 125px;
+    }
+    .kitchen__wrapp{
+        margin-right: 11px;
+    }
+    .kitchen__checkbox{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .kitchen__wrapp{
+        margin-right: 11px;
+    }
+    .kitchen__title{
+        font-size: 15px;
+    }
+    .homestay__number{
+        width: auto;
+    }
+    .homestay__age{
+        width: auto;
+    }
+    .homestay__link{
+        font-size: 13px;
+        padding: 15px 0;
+        width: 129px;
+    }
+    .style__box-text{
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+        font-size: 14px;
+    }
+    .tone__bg-bright{
+        height: 110px;
+        width: 180px;
+    }
+    .tone__bg-light{
+        height: 110px;
+        width: 180px;
+    }
+    .tone__bg-dark{
+        height: 110px;
+        width: 180px;
+    }
+    .style__text__min{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .style__block{
+        width: 100%;
+    }
+    .style__bg-loft{
+        height: 110px;
+        width: 160px;
+    }
+    .style__bg-classic{
+        height: 110px;
+        width: 160px;
+    }
+    .style__bg-modern{
+        height: 110px;
+        width: 160px;
+    }
+    .kitchen__inner{
+        width: auto;
+    }
+    .kitchen__content{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .form__inner input{
+        max-width: 210px;
+        width: 180px;
+        font-size: 13px;
+    }
+    .form__inner label{
+        font-size: 14px;
+    }
+    .feedback{
+        padding: 38px 0 43px;
+    }
+    .form__title{
+        font-size: 16px;
+        text-transform: none;
+        color: #CFCFCF;
+        margin-top: 0;
+        text-align: left;
+        margin-bottom: 11px;
+    }
+    .feedback__title-inner{
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .plan__back{
+        display: none;
+    }
+    .form__text{
+        width: auto;
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .feedback__btn{
+        margin: 72px auto 0;
+        width: 218px;
+    }
+    .form__btn{
+        margin: 19px auto 0;
+        width: 176px;
+    }
+    .form__order-link{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .form__order-text{
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .form__order-wrapper{
+        width: auto;
+    }
+    .form__order{
+        width: auto;   
+        margin-right: 40px; 
+    }
+    .form{
+        padding-top: 19px;
+        padding-bottom: 26px;
+    }
+    .form__wraper{
+        margin-top: 29px;
+    }
+    .plan__content{
+        font-size: 16px;
+    }
+    .apartment__text{
+        font-size: 13px;
+    }
+    .apartment__wrapper input{
+        width: 99px;
+    }
+    .apartment__link-all{
+        margin: 68px 0 21px;
+    }
+    .apartment__link{
+        width: 128px;
+    }
+    .apartment__warning{
+        margin: 0 auto;
+        width: 271px;
+        height: auto;
+        padding: 13px 13px 18px 13px;
+    }
+    .apartment{
+        padding: 0 0 145px;
+    }
+    .apartment__test{
+        display: flex;
+    }
+    .apartment__test svg{
+        width: 50px;
+        margin-top: 13px;
+        margin-right: 10px;
+        height: 50px;
+    }
+    .apartment__close{
+        right: 2px;
+        top: 13px;
+    }
+    .apartment__warning-bold{
+        margin: 15px 0 12px;
+    }
+    .apartment__warning-thin{
+        margin-left: 32px;
+    }
+    .area__warning{
+        display: block;
+    }
+    .area__inner input{
+        width: 124px;
+    }
+    .area__kitchen-for input{
+        width: 43px;
+        padding-left: 16px;
+    }
+    .area__kitchen-left{
+        margin: 0 16px 0 0;
+    }
+    .area__kitchen-size{
+        margin-right: 15px;
+    }
+    .aria__link-all{
+        margin: 0 -20px 30px 0;
+    }
+    .area{
+        padding: 12px 0 21px
+    }
+    input[type="radio"]:checked +
+    label, input[type="radio"]:not(:checked) +
+    label {
+        padding-left: 33px;
+    }
+    .area__inner-block{
+        display: flex;
+    }
+    .area__checkbox-bottom{
+        margin-top: 24px;
+    }
+    .area__checkbox-top{
+        margin-right: 15px;
+    }
+    .room__inner-block{
+        display: block;
+    }
+    .room{
+        padding: 0 0 22px;
+    }
+    .crapper__link{
+        max-width: 270px;
+        width: auto;
+    }
+    .crapper{
+        padding: 0 0 24px;
+    }
+    .convenience__block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .convenience{
+        padding: 0 0 24px;
+    }
+    .payment__title{
+        font-size: 17px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .payment__link{
+        margin-top: 180px;
+    }
+    .payment{
+        padding: 40px 0 30px;
+    }
+    .thanks__title{
+        margin-bottom: 25px;
+    }
+    .thanks__text{
+        margin-bottom: 99px;
+    }
+    .thanks{
+        padding: 40px 0 130px;
+    }
+    .header__text{
+        display: block;
+    }
+    .plan__wrapper p{
+        width: 216px;
+        overflow: hidden;
+        line-height: normal;
+    }
+    .webkit {
+        text-overflow: -o-ellipsis-lastline;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;  
+        -webkit-line-clamp: 2;
+    }
+    .plan__wrapper{
+        padding: 12px 10px 9px;
+        height: 145px;
+    }
+    .plan__wrapper-green span{
+        padding-bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .plan__wrapper-red span{
+        padding-bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .plan__wrapper-pink span{
+        padding-bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .plan__title{
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .plan__wrapper:nth-child(1){
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .plan__link{
+        display: none
+    }
+    .plan__inner-left{
+        display: block;
+    }
+    .plan__inner-all{
+        display: flex;
+    }
+    .plan__inner-right{
+        margin-left: 5px;
+    }
+    .plan__text-none{
+        display: block;
+    }
+    .plan__text-all{
+        display: none;
+    }
+    .plan__wrapper-pink{
+        height: 156px;
+    }
+    .plan__details{
+        display: block;
+    }
+    .plan__details-link{
+        margin-left: 38px;
+        font-size: 13px;
+        font-family: 'Montserrat-400';
+        color: #00A1E3;
+    }
+    .plan__details{
+        margin-bottom: -28px;
+    }
+    .plan__content{
+        margin: 0 0 28px;
+    }
+    .plan__min-box{
+        /* display: flex; */
+        align-items: center;
+        background: #312F3D;
+        border-radius: 15px;
+        margin-bottom: 18px;
+        padding: 13px 10px 13px 10px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    }
+    .plan__min-amount{
+        margin-left: auto;
+    }
+    .plan__min-title{
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+    .plan__min-amount{
+        color: #2CA59A;
+    }
+    .plan__min-left input[type="radio"]:not(:checked) + label:before{
+        left: 0px;
+        top: -8px;
+    }
+    
+
+}
