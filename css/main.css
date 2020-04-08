@@ -61,20 +61,26 @@ div, p, form, input, a, span, button{
 .plan__min-box{
     display: none;
 }
+.form__mobile-block{
+    display: none;
+}
+.main__title-none{
+    display: none;
+}
 
             /* ---HEADER ---*/
 
 .header{
-    /* background: url('../img/header_bg.png') no-repeat center center / cover; */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/header_bg.png'); */
+    background: url('../img/header_bg.png') no-repeat center center / cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/header_bg.png');
     padding: 40px 0 30px;
-    /* color: #fff;
+    color: #fff;
     border-bottom: 5px;
     position: relative;
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain; */
+    background-size: contain;
 }
 .header__border{
     width: 100%;
@@ -266,6 +272,9 @@ div, p, form, input, a, span, button{
 .style__link{
     margin-right: 16px;
 }
+.style__block-flex{
+    display: flex;
+}
 .style__block{
     margin-right: 25px;
 }
@@ -332,10 +341,10 @@ div, p, form, input, a, span, button{
     padding: 26px 0 41px;
 }
 .kitchen__bg-bright{
-    background: url('../img/tone_bright.png') no-repeat center center / cover;
+    background: url('../img/kitchen_corner.png') no-repeat center center / cover;
 }
 .kitchen__bg-corner{
-    background: url('../img/tone_light.png') no-repeat center center / cover;
+    background: url('../img/kitchen_direct.png') no-repeat center center / cover;
 }
 input[type="radio"]:checked, 
 input[type="radio"]:not(:checked) {
@@ -413,8 +422,7 @@ input[type="radio"]:checked + label:after {
     color: #CFCFCF;
     font-family: 'Montserrat-700';
     padding: 26px 0 41px;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
+    
 }
 .homestay__link{
     font-family: 'Montserrat-700';
@@ -432,8 +440,8 @@ input[type="radio"]:checked + label:after {
     margin-top: 35px;
 }
 .homestay__link:hover{
-    background: #CFCFCF;
-    color: #312F3D;
+    background: #D41F7E;
+    color: #fff;
     transition: all 0.3s ease-out;
 }
 .homestay__link:focus{
