@@ -71,16 +71,15 @@ div, p, form, input, a, span, button{
             /* ---HEADER ---*/
 
 .header{
-    background: url('../img/header_bg.png') no-repeat center center / cover;
+    background: url('../img/header_bg.png');
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/header_bg.png');
     padding: 40px 0 30px;
     color: #fff;
     border-bottom: 5px;
     position: relative;
-    background-attachment: fixed;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .header__border{
     width: 100%;

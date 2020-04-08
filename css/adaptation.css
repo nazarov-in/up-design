@@ -228,6 +228,7 @@
     }
     .header{
         padding: 30px 0 30px;
+        background: none;
     }
     .header__ellipse{
         width: 55px;
