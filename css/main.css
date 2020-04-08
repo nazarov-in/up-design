@@ -65,12 +65,16 @@ div, p, form, input, a, span, button{
             /* ---HEADER ---*/
 
 .header{
-    background: url('../img/header_bg.png') no-repeat center center / cover;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/header_bg.png');
+    /* background: url('../img/header_bg.png') no-repeat center center / cover; */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/header_bg.png'); */
     padding: 40px 0 30px;
-    color: #fff;
+    /* color: #fff;
     border-bottom: 5px;
     position: relative;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain; */
 }
 .header__border{
     width: 100%;
@@ -409,6 +413,8 @@ input[type="radio"]:checked + label:after {
     color: #CFCFCF;
     font-family: 'Montserrat-700';
     padding: 26px 0 41px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 .homestay__link{
     font-family: 'Montserrat-700';

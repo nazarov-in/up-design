@@ -191,6 +191,12 @@
 @media screen and (max-width: 576px) {
     body{
         position: relative;
+        background: url('../img/header_bg.png') no-repeat center center / cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../img/header_bg.png');
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
     .container{
         width: 300px;
