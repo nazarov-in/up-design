@@ -193,7 +193,7 @@
         position: relative;
     }
     .container{
-        width: 300px;
+        width: 100%;
     }
     .header__ellipse{
         width: 55px;
