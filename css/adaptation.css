@@ -225,12 +225,9 @@
         max-width: 400px;
     }
     .header{
-<<<<<<< HEAD
         padding: 30px 0 30px;
-        background: none;
-=======
+        /* background: none; */
         padding: 30px 0 4rem;
->>>>>>> f94a1fb7f68a6fc10c557b494b04bcfcc088a13f
     }
     .header__ellipse{
         width: 55px;
