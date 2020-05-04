@@ -8,75 +8,66 @@
 	<link rel="icon" href="img/favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <!-- CSS Styles -->
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/adaptation.css">
     <link rel="stylesheet" href="css/nice-select.css">
 </head>
 <body>
-
 <!-- header -->
-
-<img src="img/header_border.png" class="border__bottom" alt="Border">
 <header class="header" id="header">
-    <img src="img/header_border.png" class="header__border" alt="Border">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="header__logo">
-                    <div class="header__ellipse">
-                        <a href="index.html"><img class="header__img" src="img/header_logo.png" alt="Logo"></a>
+    <div class="head__top">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="head__flex">
+                        <a href="index.html" class="head__logo">
+                            <img src="img/header_logo.png" class="head__logo_img" alt="Logo">
+                            <p class="head__logo_text">Ремонтпросто</p>
+                        </a>
+                        <a href="example.html" class="head__logo_link">Пример проекта</a>
                     </div>
-                    <p class="header__logo-text header__text">UP Design</p>
                 </div>
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="header__logo feedback__header"></div>
+            </div>
+        </div>
+    </div>
 </header>
-
 <!-- payment -->
-
 <section class="payment border__radius" id="payment">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="payment__wrapper">
                     <h3 class="payment__title thanks__title">Ваш заказ сформирован</h3>
-                    <p class="payment__text thanks__text">После оплаты на ваш email <span class="payment__bold">(example@gmail.com)</span> будет отправленны файлы подходящего проекта</p>
+                    <p class="payment__text thanks__text">После оплаты на ваш email (<span class="payment__bold">example@gmail.com</span>) будет отправлен проект.</p>
                     <a href="#" class="payment__link thanks__link">Оплатить</a>
+                    <a href="form.html" class="payment__link_back">Назад</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <!-- footer -->
-
+<img src="img/header_border.png" class="border__bottom" alt="Border">
 <footer class="footer" id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-7 col-md-2 col-lg-2">
-                <a href="index.html" class="footer__link">Up Design</a>
+            <div class="col-6">
+                <p class="footer__text">Возник вопрос</p>
             </div>
-            <div class="col-sm-5 col-md-4 col-lg-3">
-                <p class="footer__security">Безопасность платежей</p>
-            </div>
-            <div class="col-md-6 col-lg-4 ml-auto">
-                <div class="footer__support d-flex">
-                    <p class="footer__development">Разработка и поддержка Webdelo</p>
-                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g opacity="0.5">
-                    <g clip-path="url(#clip0)">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1116 9.57027V15.7565C23.1116 19.7484 19.859 23.0001 15.866 23.0001H7.35114C3.33169 23.0001 0.0791016 19.7484 0.0791016 15.7565V9.57027H5.15631V15.7565C5.15631 17.6335 6.69004 19.1668 8.56755 19.1668H14.6232C16.5007 19.1668 18.0344 17.6335 18.0344 15.7565V9.57027H23.1116ZM9.94263 7.64038H13.2745C13.8034 7.64038 14.253 8.06337 14.253 8.61854V14.3553C14.253 14.8841 13.8299 15.3335 13.2745 15.3335C12.1639 15.3335 11.0533 15.3335 9.94263 15.3335C9.41375 15.3335 8.96421 14.9105 8.96421 14.3553C8.96421 12.4519 8.96421 10.522 8.96421 8.61854C8.96421 8.08981 9.41375 7.64038 9.94263 7.64038Z" fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0614 0.317311C20.5207 1.11041 22.4246 3.17248 22.9799 5.73685H18.0614V0.317311ZM7.35165 -0.0263672H14.2535V3.80697H8.56807C7.21944 3.80697 6.05591 4.60007 5.50059 5.73685H0.238281C0.925819 2.45869 3.86108 -0.0263672 7.35165 -0.0263672Z" fill="white"/>
-                    </g>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0">
-                    <rect width="25" height="23" fill="white"/>
-                    </clipPath>
-                    </defs>
-                    </svg>  
+            <div class="col-6">
+                <div class="footer__icons">
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fas fa-phone"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>

@@ -8,44 +8,56 @@
 	<link rel="icon" href="img/favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <!-- CSS Styles -->
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/adaptation.css">
     <link rel="stylesheet" href="css/nice-select.css">
 </head>
 <body>
-
 <!-- header -->
-
-<img src="img/header_border.png" class="border__bottom" alt="Border">
 <header class="header" id="header">
-    <img src="img/header_border.png" class="header__border" alt="Border">
+    <div class="head__top">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="head__flex">
+                        <a href="index.html" class="head__logo">
+                            <img src="img/header_logo.png" class="head__logo_img" alt="Logo">
+                            <p class="head__logo_text">Ремонтпросто</p>
+                        </a>
+                        <a href="example.html" class="head__logo_link">Пример проекта</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="header__logo">
-                    <div class="header__ellipse">
-                        <a href="index.html"><img class="header__img" src="img/header_logo.png" alt="Logo"></a>
+                <div class=" header__apartment_box">
+                    <div class="apartment__warning">
+                        <span class="apartment__close"></span>
+                        <div class="apartment__test">
+                            <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M26.4521 20.2818L16.9037 2.7034C16.183 1.4902 14.9102 0.765625 13.499 0.765625C12.0879 0.765625 10.8151 1.4902 10.0944 2.7034C10.089 2.71268 10.0844 2.72196 10.0789 2.73125L0.562284 20.254C-0.173835 21.4928 -0.187756 22.9805 0.524368 24.2332C1.23813 25.4866 2.524 26.2343 3.96613 26.2343H22.9792C24.4213 26.2343 25.76 25.4866 26.4737 24.2332C27.1859 22.9805 27.172 21.4927 26.4521 20.2818ZM11.9154 8.81442C11.9154 7.93977 12.6244 7.23081 13.499 7.23081C14.3737 7.23081 15.0826 7.93982 15.0826 8.81442V15.1489C15.0826 16.0235 14.3736 16.7325 13.499 16.7325C12.6244 16.7325 11.9154 16.0234 11.9154 15.1489V8.81442ZM13.499 23.0671C12.1892 23.0671 11.1236 22.0015 11.1236 20.6916C11.1236 19.3818 12.1891 18.3162 13.499 18.3162C14.8089 18.3162 15.8744 19.3818 15.8744 20.6916C15.8745 22.0015 14.8089 23.0671 13.499 23.0671Z" fill="#D41F7E"/></svg>
+                                <p class="apartment__warning-bold">Не помните размеров сейчас?</p>
+                        </div>
+                        <p class="apartment__warning-thin">Пропустите эти шаги и заполните данные позже в файле который мы вам пришлем.</p>
                     </div>
-                    <p class="header__logo-text">UP Design</p>
                 </div>
             </div>
         </div>
     </div>
 </header>
-
 <!-- crapper -->
-
 <section class="crapper border__radius" id="crapper">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <a href="#" class="plan__back apartment__back">< К выбору планов</a>
-            </div>
-            <div class="col-12">
                 <h3 class="plan__content">Введите подробные данные</h3>
             </div>
-            <div class="col-md-7 col-lg-8 col-xl-9">
+            <div class="col-12">
                 <select class="area__select ">
                     <option value="1">Квартира</option>
                     <option value="2" disabled>Квартира 2</option>
@@ -59,19 +71,9 @@
                     <option value="2" disabled>Комната 2</option>
                 </select>
                 <p class="area__kitchen-title">Санузел</p>
-                <div class="convenience__wrapper d-flex">
-                    <div class="kitchen__box convenience__box">
-                        <input type="radio" id="combined" name="horns">
-                        <label for="combined">Совмещенный</label>
-                    </div>
-                    <div class="kitchen__box convenience__box">
-                        <input type="radio" id="divided" name="horns">
-                        <label for="divided">Раздельный</label>
-                    </div>
-                </div>
                 <div class="row">
-                    <div class="col-xl-4">
-                        <div class="apartment__wrapper crapper__inner-flex">
+                    <div class="col-12">
+                        <div class="apartment__wrapper crapper__inner-flex conveniense__width">
                             <div class="area__kitchen-block crapper__block-left convenience__block-width">
                                 <p class="apartment__text area__kitchen-text">Площадь ванной</p>
                                 <div class="apartment__height">
@@ -80,94 +82,58 @@
                                     <p class="apartment__meters">м<span class="apartment__span">2</span></span>
                                 </div>
                             </div>
+                            <div class="crapper__flex">
+                                <p class="apartment__text area__kitchen-text">Размер стен ванной</p>
+                            <div class="area__kitchen-for area__kitchen_box d-flex crapper__bt">
+                                <div class="apartment__wrapper">
+                                    <p class="apartment__text">Длина</p>
+                                    <div class="apartment__area">
+                                        <label for="area"></label>
+                                        <input type="number"id="area" placeholder="0">
+                                        <p class="apartment__meters">м</p>
+                                    </div>
+                                </div>
+                                <div class="apartment__wrapper apartment__block-left">
+                                    <p class="apartment__text">Ширина</p>
+                                    <div class="apartment__height">
+                                        <label for="height"></label>
+                                        <input type="number" name="name" id="height" placeholder="0">
+                                        <p class="apartment__meters">м</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
                             <div class="area__kitchen-block crapper__block-right crapper__top convenience__block-width">
                                 <p class="apartment__text area__kitchen-text">Площадь туалета</p>
                                 <div class="apartment__height">
                                     <label for="height"></label>
                                     <input type="number" name="name" id="height" placeholder="0">
-                                    <p class="apartment__meters">м<span class="apartment__span">2</span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="apartment__wrapper area__kitchen-block area__kitchen-min">
-                            <p class="apartment__text area__kitchen-text convenience__top">Размер 4х стен</p>
-                            <div class="area__kitchen-for crapper__bottom d-flex">
-                                <div class="apartment__height">
-                                    <label for="height"></label>
-                                    <input type="number" name="name" id="height" placeholder="0">
-                                    <p class="apartment__meters area__kitchen-size">м</p>
-                                </div>
-                                <div class="apartment__height">
-                                    <label for="height"></label>
-                                    <input type="number" name="name" id="height" placeholder="0">
-                                    <p class="apartment__meters area__kitchen-size">м</p>
-                                </div>
-                                <div class="apartment__height">
-                                    <label for="height"></label>
-                                    <input type="number" name="name" id="height" placeholder="0">
-                                    <p class="apartment__meters area__kitchen-size">м</p>
-                                </div>
-                                <div class="apartment__height">
-                                    <label for="height"></label>
-                                    <input type="number" name="name" id="height" placeholder="0">
-                                    <p class="apartment__meters area__kitchen-size">м</p>
-                                </div>
-                            </div>
-                            <p class="apartment__text area__kitchen-text convenience__top">Размер 4х стен</p>
-                            <div class="area__kitchen-for d-flex">
-                                <div class="apartment__height">
-                                    <label for="height"></label>
-                                    <input type="number" name="name" id="height" placeholder="0">
-                                    <p class="apartment__meters area__kitchen-size">м</p>
-                                </div>
-                                <div class="apartment__height">
-                                    <label for="height"></label>
-                                    <input type="number" name="name" id="height" placeholder="0">
-                                    <p class="apartment__meters area__kitchen-size">м</p>
-                                </div>
-                                <div class="apartment__height">
-                                    <label for="height"></label>
-                                    <input type="number" name="name" id="height" placeholder="0">
-                                    <p class="apartment__meters area__kitchen-size">м</p>
-                                </div>
-                                <div class="apartment__height">
-                                    <label for="height"></label>
-                                    <input type="number" name="name" id="height" placeholder="0">
-                                    <p class="apartment__meters area__kitchen-size">м</p>
+                                    <p class="apartment__meters">м</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="convenience__block">
-                    <div class="convenience__radio">
-                        <p class="area__kitchen-title convenience__title">Ванная</p>
-                        <div class="convenience__wrapper d-flex">
-                            <div class="kitchen__box convenience__box">
-                                <input type="radio" id="bathroom" name="horns">
-                                <label for="bathroom">Да</label>
+                <div class="convenience__block conveniense__width crapper__block">
+                    <p class="apartment__text area__kitchen-text conveniense__top">Размер стен туалета</p>
+                        <div class="area__kitchen-for area__kitchen_box d-flex crapper__bt">
+                            <div class="apartment__wrapper">
+                                <p class="apartment__text">Длина</p>
+                                <div class="apartment__area">
+                                    <label for="area"></label>
+                                    <input type="number"id="area" placeholder="0">
+                                    <p class="apartment__meters">м</p>
+                                </div>
                             </div>
-                            <div class="kitchen__box convenience__box">
-                                <input type="radio" id="negative" name="horns">
-                                <label for="negative">Нет</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="convenience__radio">
-                        <p class="area__kitchen-title convenience__title">Душевая кабина</p>
-                        <div class="convenience__wrapper d-flex">
-                            <div class="kitchen__box convenience__box">
-                                <input type="radio" id="shower" name="horns">
-                                <label for="shower">Да</label>
-                            </div>
-                            <div class="kitchen__box convenience__box">
-                                <input type="radio" id="cab" name="horns">
-                                <label for="cab">Нет</label>
+                            <div class="apartment__wrapper apartment__block-left">
+                                <p class="apartment__text">Ширина</p>
+                                <div class="apartment__height">
+                                    <label for="height"></label>
+                                    <input type="number" name="name" id="height" placeholder="0">
+                                    <p class="apartment__meters">м</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     <div class="convenience__radio">
                         <p class="area__kitchen-title convenience__title">Стиральная машина</p>
                         <div class="convenience__wrapper d-flex">
@@ -182,53 +148,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="apartment__link-all aria__link-all convenience__link-all">
+                <div class="apartment__link-all aria__link-all convenience__link-all conveniense__width">
                     <a href="#" class="apartment__link aria__link convenience__link crapper__link">Пропустить</a>
                     <a href="#" class="apartment__link aria__link convenience__link-right">Завершить</a>
                 </div>
             </div>
-            <div class="col-md-5 col-lg-4 col-xl-3 ml-auto">
-                <div class="apartment__warning area__warning">
-                    <span class="apartment__close"></span>
-                    <div class="apartment__test">
-                        <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M26.4521 20.2818L16.9037 2.7034C16.183 1.4902 14.9102 0.765625 13.499 0.765625C12.0879 0.765625 10.8151 1.4902 10.0944 2.7034C10.089 2.71268 10.0844 2.72196 10.0789 2.73125L0.562284 20.254C-0.173835 21.4928 -0.187756 22.9805 0.524368 24.2332C1.23813 25.4866 2.524 26.2343 3.96613 26.2343H22.9792C24.4213 26.2343 25.76 25.4866 26.4737 24.2332C27.1859 22.9805 27.172 21.4927 26.4521 20.2818ZM11.9154 8.81442C11.9154 7.93977 12.6244 7.23081 13.499 7.23081C14.3737 7.23081 15.0826 7.93982 15.0826 8.81442V15.1489C15.0826 16.0235 14.3736 16.7325 13.499 16.7325C12.6244 16.7325 11.9154 16.0234 11.9154 15.1489V8.81442ZM13.499 23.0671C12.1892 23.0671 11.1236 22.0015 11.1236 20.6916C11.1236 19.3818 12.1891 18.3162 13.499 18.3162C14.8089 18.3162 15.8744 19.3818 15.8744 20.6916C15.8745 22.0015 14.8089 23.0671 13.499 23.0671Z" fill="#D41F7E"/></svg>
-                        <p class="apartment__warning-bold">Не помните размеров или нет времени добавлять сейчас?</p>
-                    </div>
-                    <p class="apartment__warning-thin">Вы можете пропустить эти шаги и заполнить данные позже в файле который мы вам пришлем.</p>
-                </div>
-            </div> 
         </div>
     </div>
 </section>
-
 <!-- footer -->
-
+<img src="img/header_border.png" class="border__bottom" alt="Border">
 <footer class="footer" id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-7 col-md-2 col-lg-2">
-                <a href="index.html" class="footer__link">Up Design</a>
+            <div class="col-6">
+                <p class="footer__text">Возник вопрос</p>
             </div>
-            <div class="col-sm-5 col-md-4 col-lg-3">
-                <p class="footer__security">Безопасность платежей</p>
-            </div>
-            <div class="col-md-6 col-lg-4 ml-auto">
-                <div class="footer__support d-flex">
-                    <p class="footer__development">Разработка и поддержка Webdelo</p>
-                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g opacity="0.5">
-                    <g clip-path="url(#clip0)">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1116 9.57027V15.7565C23.1116 19.7484 19.859 23.0001 15.866 23.0001H7.35114C3.33169 23.0001 0.0791016 19.7484 0.0791016 15.7565V9.57027H5.15631V15.7565C5.15631 17.6335 6.69004 19.1668 8.56755 19.1668H14.6232C16.5007 19.1668 18.0344 17.6335 18.0344 15.7565V9.57027H23.1116ZM9.94263 7.64038H13.2745C13.8034 7.64038 14.253 8.06337 14.253 8.61854V14.3553C14.253 14.8841 13.8299 15.3335 13.2745 15.3335C12.1639 15.3335 11.0533 15.3335 9.94263 15.3335C9.41375 15.3335 8.96421 14.9105 8.96421 14.3553C8.96421 12.4519 8.96421 10.522 8.96421 8.61854C8.96421 8.08981 9.41375 7.64038 9.94263 7.64038Z" fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0614 0.317311C20.5207 1.11041 22.4246 3.17248 22.9799 5.73685H18.0614V0.317311ZM7.35165 -0.0263672H14.2535V3.80697H8.56807C7.21944 3.80697 6.05591 4.60007 5.50059 5.73685H0.238281C0.925819 2.45869 3.86108 -0.0263672 7.35165 -0.0263672Z" fill="white"/>
-                    </g>
-                    </g>
-                    <defs>
-                    <clipPath id="clip0">
-                    <rect width="25" height="23" fill="white"/>
-                    </clipPath>
-                    </defs>
-                    </svg>  
+            <div class="col-6">
+                <div class="footer__icons">
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fas fa-phone"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
